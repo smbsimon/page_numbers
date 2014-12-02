@@ -1,5 +1,6 @@
 class Printer
-  attr_reader :number_of_pages
+  attr_reader :number_of_pages,
+              :pairs
 
   def initialize(number_of_pages=2)
     @number_of_pages = number_of_pages
